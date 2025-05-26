@@ -9,8 +9,16 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-image: url('../images/cover-image-dark.png');
+  --accent-color: #ff8dcb;
+  --text-color: #eee;
+  --text-color-secondary: #bbb;
+  --header-bg: #111;
+  
 }
 
-.theme-dark .page {
+.theme-dark .header__rec {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  
+  display: block;
 }
