@@ -9,12 +9,17 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-image: url()
-  --bg-image: url('../images/cover-image-light.png');
-  --accent-color: #ff8dcb;
-  --text-color: #222;
-  --text-color-secondary: #555;
-  --header-bg: #fff;
+
+  --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #FFC2E6;
+  --menu-color: #353430;
+  --title-color: #FFC2E6;
+  --link-shadow: #FF8DCB;
+  --text-color: #353430;
+  --bg-subtitle: #FF8DCB;
+  --section-title-color: #353430;
+  --section-subtitle-color: #353430;
+  --hover-color: rgba(50, 49, 45, 0.4);
 }
 
 .theme-light .page {
