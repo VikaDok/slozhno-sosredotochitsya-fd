@@ -13,12 +13,21 @@
   --hover-color: rgba(255, 0, 112, 0.4);
   --main-font: 'IBM Plex mono', monospace;
   --font-size: 18px;
-  --line-height: 1.3;
+  --line-height: 23.4px; /*1.3 */
   --padding-content: 10px;
+  
+  --padding-desctop: 20px;
   --header-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --footer-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
+@media (width >= 768px) {
+  :root {
+    --padding-content: 20px;
+    --header-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --footer-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
 /* @media (prefers-color-scheme: dark) {
   :root {
     --bg-image: url('../images/cover-image-dark.png');
