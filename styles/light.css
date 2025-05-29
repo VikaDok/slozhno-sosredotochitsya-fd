@@ -27,3 +27,23 @@
   background-image: var(--bg-image);
   color: var(--text-color);
 }
+
+@media (prefers-color-scheme: light) {
+  :root.theme-light {
+    --bg-image: url(../images/cover-image-light.png);
+    --bg-color: #FFC2E6;
+    --menu-color: #353430;
+    --title-color: #FFC2E6;
+    --link-shadow: #FF8DCB;
+    --text-color: #353430;
+    --bg-subtitle: #FF8DCB;
+    --section-title-color: #353430;
+    --section-subtitle-color: #353430;
+    --hover-color: rgba(50, 49, 45, 0.4);
+  }
+  
+  .theme-light .page {
+    background-image: var(--bg-image);
+    color: var(--text-color);
+  }
+}
