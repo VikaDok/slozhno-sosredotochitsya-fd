@@ -93,7 +93,9 @@
 }
 
 .header__theme-menu-button_active {
-  border-color: var(--accent-color);
+  border-color: var(--menu-color);
+  cursor: default;
+  pointer-events: none;
 }
 
 .header__title {
